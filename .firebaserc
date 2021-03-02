@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "vondercenter"
+  },
+  "targets": {
+    "vondercenter": {
+      "hosting": {
+        "rednov-ui": [
+          "rednov-ui"
+        ]
+      }
+    }
+  }
+}
