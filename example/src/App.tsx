@@ -1,10 +1,15 @@
+//@ts-ignore
 import React from 'react'
 
-import { ExampleComponent } from 'rednov-ui'
+import { Typography } from 'rednov-ui'
 import 'rednov-ui/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <div style={{ margin: '18px' }}>
+      <Typography.Headline>Test Library</Typography.Headline>
+    </div>
+  )
 }
 
 export default App
