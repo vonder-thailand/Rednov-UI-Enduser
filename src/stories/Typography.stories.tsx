@@ -15,7 +15,7 @@ import '../index.css'
 
 //@ts-ignore
 export default {
-  title: 'Example/Typography',
+  title: 'Components/Typography',
   component: Typography,
   argTypes: {
     color: { control: 'color' }
