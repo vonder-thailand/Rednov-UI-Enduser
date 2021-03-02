@@ -1,30 +1,30 @@
-# rednov-ui
+# Rednov UI
 
-> Rednov UI
+<!-- > Rednov UI -->
 
 [![NPM](https://img.shields.io/npm/v/rednov-ui.svg)](https://www.npmjs.com/package/rednov-ui) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save rednov-ui
+yarn add rednov-ui
 ```
 
 ## Usage
 
 ```tsx
-import React, { Component } from 'react'
-
-import MyComponent from 'rednov-ui'
+import { Typography } from 'rednov-ui'
 import 'rednov-ui/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+function App() {
+  return (
+    <div>
+      <Typography.Headline>This is Headline</Typography.Headline>
+    </div>
+  )
 }
 ```
 
 ## License
 
-vonder © [vonder](https://github.com/vonder)
+vonder © [vonder](https://github.com/vonder-thailand)
