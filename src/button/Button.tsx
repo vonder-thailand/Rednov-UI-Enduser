@@ -45,10 +45,10 @@ const getButtonWarningStyle = css`
   border-color: var(--orange-400) !important;
 `
 
-const getButtonInfowStyle = css`
+const getButtonInfoStyle = css`
   color: var(--white) !important;
-  background-color: var(--violet-400) !important;
-  border-color: var(--violet-400) !important;
+  background-color: var(--indigo-400) !important;
+  border-color: var(--indigo-400) !important;
 `
 
 const getButtonLinkStyle = css`
@@ -174,7 +174,7 @@ const VonderButton = styled(AntdButton)<BaseButtonProps>`
 
     if (type === 'info') {
       return css`
-        ${getButtonInfowStyle}
+        ${getButtonInfoStyle}
         &:hover,
         &:focus {
           ${getButtonInfowStyle}
